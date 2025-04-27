@@ -49,14 +49,14 @@ Sockets almost always work in pairs. Each `asocket` has a `peer` pointer.
 
 ```mermaid
 graph LR
-    subgraph Host Computer (ADB Server)
-        Terminal -- FD --> L_Host[Local Socket (Host)];
-        L_Host -- peer --> R_Host[Remote Socket (Host)];
+    subgraph "Host Computer (ADB Server)"
+        Terminal -- FD --> L_Host["Local Socket (Host)"];
+        L_Host -- peer --> R_Host["Remote Socket (Host)"];
     end
 
-    subgraph Device (adbd)
-        R_Device[Remote Socket (Device)] -- peer --> L_Device[Local Socket (Device)];
-        L_Device -- FD --> ShellProcess[/system/bin/sh];
+    subgraph "Device (adbd)" 
+        R_Device["Remote Socket (Device)"] -- peer --> L_Device["Local Socket (Device)"];
+        L_Device -- FD --> ShellProcess["/system/bin/sh"];
     end
 
     R_Host -- Transport (USB/TCP) --> R_Device;
