@@ -16,14 +16,14 @@ Communication happens over various physical *transports* (like USB or TCP), mana
 ```mermaid
 flowchart TD
     A0["ADB Protocol & Messaging"]
-    A1["Transport (`atransport`)"]
-    A2["Connection (`Connection`/`BlockingConnection`)"]
-    A3["Socket (`asocket`)"]
+    A1["Transport (atransport)"]
+    A2["Connection (Connection/BlockingConnection)"]
+    A3["Socket (asocket)"]
     A4["Services (Host/Local)"]
-    A5["Event Loop (`fdevent`)"]
+    A5["Event Loop (fdevent)"]
     A6["Sync Protocol"]
-    A7["Shell Protocol (`shell_v2`)"]
-    A8["Authentication (`adb_auth`)"]
+    A7["Shell Protocol (shell_v2)"]
+    A8["Authentication (adb_auth)"]
     A0 -- "Sent over" --> A1
     A1 -- "Uses" --> A2
     A3 -- "Multiplexed over" --> A1
