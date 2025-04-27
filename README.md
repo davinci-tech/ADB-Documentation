@@ -1,5 +1,5 @@
 # Hy there
-I tried to solve [this ctf](https://app.cyber-edu.co/challenges/558d25a0-7f21-11ea-a12a-6d2a55b1be9c?tenant=cyberedu) but I noticed I do not really now how ADB works under-the-hood. As such, I created this documentation using the amazing [Codebase Knowledge Builder](https://github.com/The-Pocket/Tutorial-Codebase-Knowledge?tab=readme-ov-file) project in hope I will finally understand the guts of ADB. Huge shoutout to [zachary62](https://github.com/zachary62) for creating this super-helpful and super-cool tool.
+I tried to solve [this ctf](https://app.cyber-edu.co/challenges/558d25a0-7f21-11ea-a12a-6d2a55b1be9c?tenant=cyberedu) but I noticed I do not really now how ADB works under-the-hood. As such, I created this documentation using the amazing [Codebase Knowledge Builder](https://github.com/The-Pocket/Tutorial-Codebase-Knowledge?tab=readme-ov-file) project in hope I will finally understand the guts of ADB. Huge shoutout to [zachary62](https://github.com/zachary62) for creating this super-helpful and super-cool tool. 🙌
 
 Some details:
 - the codebase I used was can be found [here](https://android.googlesource.com/platform//system/core/+/5af75ed172e44c781a4feb81a71113612b7f21e6/adb) ([download link](https://android.googlesource.com/platform//system/core/+archive/5af75ed172e44c781a4feb81a71113612b7f21e6/adb.tar.gz)). 
