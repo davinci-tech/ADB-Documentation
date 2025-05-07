@@ -49,6 +49,11 @@ flowchart TD
 8. [Shell Protocol (`shell_v2`)](08_shell_protocol___shell_v2__.md)
 9. [Event Loop (`fdevent`)](09_event_loop___fdevent__.md)
 
+## Resources
+This section was added by me to list some very useful resources regarding adb:
+- [AOPS - README.md for adb](https://android.googlesource.com/platform/packages/modules/adb/+/refs/tags/aml_adb_340912200/README.md)
+- [ADB Internals (1/2)](https://www.synacktiv.com/en/node/1042)
+- [ADB Internals (2/2)](https://www.synacktiv.com/en/publications/diving-into-adb-protocol-internals-22)
 
 ---
 
